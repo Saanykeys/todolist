@@ -1,0 +1,16 @@
+.item-desciption {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10 px;;
+}
+
+.item-completed:checked + .item-desciption {
+    background: #DDDDDD;
+    text-decoration: line-through;
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: #34343434;
+}
